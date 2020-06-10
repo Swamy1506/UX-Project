@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    height: 150px;
+    background-color: cornsilk;
+}
+
+#logo {
+    margin-left: 100px;
+    padding: 20px 0px;
+    float: left;
+    height: 110px;
+    width: 150px;
+}
+
+ul.navlinks {
+    padding: 0px;
+    list-style: none;
+    background-color: crimson;
+    float: right;
+    margin: 40px 30px 0 0;
+    border-radius: 10px;
+}
+
+.navlinks li {  
+    padding: 7px 20px; 
+    float: left;
+}
+
+.navlinks li a {
+    padding: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12;
+    text-decoration: none;
+}
+
+.main-container {
+    margin: 10px auto;
+    width: 1140px;
+}
+
+.banner img {
+    height: 400px;
+    width: 100%;
+}
+
+.banner>p {
+    position: relative;
+    left: 130px;
+    top: -320px;
+    width: 75%;
+    font-size: 22px;
+    color: #fff;
+}
+
+.articles {
+    margin-top: -75px;
+}
+
+.arcle-img {
+    height: 250px;
+    width: 95%;
+}
+
+.article1 {
+    float: left;
+    width: 33.33%;
+}
+
+.article2 {
+    float: left;
+    width: 33.33%;
+}
+
+.article3 {
+    float: left;
+    width: 33.33%;
+}
+
+.prj-data {
+    clear: both;
+}
+
+.prj-article1>.prj-image {
+    height: 250px;
+    float: left;
+    width: 40%;
+}
+
+.prj-article1>h1, .prj-article1>p {
+    float: left;
+    width: 55%;
+    margin-left: 22px;
+    margin-top: 0px;
+}
+
+.footer {
+    clear: both;
+    height: 100px;
+    background-color: cornsilk;
+    margin-top: 270px;
+}
+
+.footer>p {
+    text-align: center;
+    padding: 25px;
+    font-size: 40px;
+}
+
